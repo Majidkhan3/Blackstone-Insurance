@@ -17,6 +17,8 @@ import Rentalquote from "@/components/Rentalquote";
 import Businessquote from "@/components/Businessquote";
 import Homequote from "@/components/Homequote";
 import FloatingIcons from "@/components/FloatingIcons";
+import DmvServices from "./pages/DmvServices";
+import CreditRepair from "./pages/CreditRepair";
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -39,6 +41,8 @@ const App = () => (
           <Route path="/Rentalquote" element={<Rentalquote />} />
           <Route path="/Businessquote" element={<Businessquote />} />
           <Route path="/Homequote" element={<Homequote />} />
+          <Route path="/dmv-services" element={<DmvServices />} />
+          <Route path="/credit-repair" element={<CreditRepair />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

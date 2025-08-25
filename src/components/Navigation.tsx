@@ -9,6 +9,8 @@ import {
   Building,
   Home,
   Key,
+  CreditCard,
+  Landmark,
 } from "lucide-react";
 import { Link } from "react-router-dom";
 
@@ -41,6 +43,18 @@ const Navigation = () => {
       path: "/home-insurance",
       icon: Home,
       description: "Secure your family home",
+    },
+    {
+      name: "DMV Services",
+      path: "/dmv-services",
+      icon: Landmark,
+      description: "Licensing, registration & more",
+    },
+    {
+      name: "Credit Repair",
+      path: "/credit-repair",
+      icon: CreditCard,
+      description: "Improve & rebuild your credit",
     },
   ];
 
@@ -105,7 +119,6 @@ const Navigation = () => {
               >
                 <Shield className="w-4 h-4 mr-2" />
                 Services
-              
               </button>
 
               {isServicesOpen && (
