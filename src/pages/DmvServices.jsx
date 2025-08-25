@@ -47,45 +47,7 @@ export default function DmvServices() {
       requirements: ["Valid driver's license", "Course completion within timeframe", "Final exam passing grade"],
       process: "Complete course and submit certificate to DMV and insurance provider"
     },
-    {
-      icon: <IdCard className="w-10 h-10" />,
-      title: "License Services",
-      description: "All driver's license related services",
-      details: [
-        "New driver's licenses",
-        "License renewal",
-        "Real ID compliance",
-        "Commercial licenses"
-      ],
-      requirements: ["Proof of identity", "Social Security verification", "Residence documentation"],
-      process: "Appointments recommended for faster service"
-    },
-    {
-      icon: <Truck className="w-10 h-10" />,
-      title: "Commercial Vehicles",
-      description: "Services for commercial vehicles and operators",
-      details: [
-        "CDL licensing",
-        "Commercial vehicle registration",
-        "DOT compliance",
-        "Weight declarations"
-      ],
-      requirements: ["Commercial insurance", "Vehicle inspection reports", "Business documentation"],
-      process: "Additional documentation required for commercial services"
-    },
-    {
-      icon: <Wrench className="w-10 h-10" />,
-      title: "Vehicle Services",
-      description: "Additional vehicle-related services",
-      details: [
-        "Title transfers",
-        "Lien recordings",
-        "Vehicle identification inspections",
-        "Disabled parking permits"
-      ],
-      requirements: ["Varies by service type", "Typically proof of ownership and identification"],
-      process: "Some services may require appointments"
-    }
+ 
   ];
 
   const steps = [
@@ -187,6 +149,7 @@ export default function DmvServices() {
                 <div className="mb-4">
                   <h4 className="font-medium mb-2 text-[#F4C538]">Process:</h4>
                   <p className="text-gray-300 text-sm">{service.process}</p>
+                  
                 </div>
               </div>
             ))}

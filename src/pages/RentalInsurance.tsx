@@ -60,11 +60,14 @@ const RentalInsurance = () => {
               Premium protection for modern renters who demand excellence. 
               Safeguard your lifestyle with our elite rental insurance solutions.
             </p>
-            <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-              <Button className="btn-luxury text-lg px-8 py-4">
-                Get Rental Quote
-                <ArrowRight className="ml-2 w-5 h-5" />
-              </Button>
+            <div className="flex flex-col md:flex-row items-center justify-center gap-4 mt-8">
+              <a
+                href="tel:+1 917-487-9110
+"
+                className="px-6 py-3 rounded-xl bg-[#00A1FC] text-white font-semibold shadow-lg hover:bg-[#0B0B51] transition-colors"
+              >
+                Call Us Now: +1 917-487-9110
+              </a>
             </div>
           </div>
         </div>
@@ -204,10 +207,15 @@ const RentalInsurance = () => {
             Join thousands of renters who trust Blackstone Insurance for premium protection 
             and unmatched peace of mind.
           </p>
-          <Button className="btn-luxury text-lg px-12 py-4 animate-reveal-delay-2">
-            Get Your Rental Coverage Today
-            <ArrowRight className="ml-2 w-5 h-5" />
-          </Button>
+        <div className="flex flex-col md:flex-row items-center justify-center gap-4 mt-8">
+              <a
+                href="tel:+1 917-487-9110
+"
+                className="px-6 py-3 rounded-xl bg-[#00A1FC] text-white font-semibold shadow-lg hover:bg-[#0B0B51] transition-colors"
+              >
+                Call Us Now: +1 917-487-9110
+              </a>
+            </div>
         </div>
       </section>
     </div>

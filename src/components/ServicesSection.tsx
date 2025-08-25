@@ -31,7 +31,7 @@ const ServicesSection = () => {
             <span className="text-matrix">Services</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Advanced insurance solutions powered by cutting-edge technology and backed by uncompromising security.
+            Blackstone insurance solutions powered by cutting-edge technology and backed by uncompromising security.
           </p>
         </div>
         
