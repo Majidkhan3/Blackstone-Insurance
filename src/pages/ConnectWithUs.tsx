@@ -34,7 +34,7 @@ const ConnectWithUs = () => {
       icon: Phone,
       title: "Elite Support Line",
       description: "24/7 premium customer service",
-      detail: "(917)-487-9110",
+      detail: "+1 917-487-9110",
       action: "Call Now",
     },
     {
@@ -346,7 +346,7 @@ const ConnectWithUs = () => {
               preferred choice for discerning clients who demand the very best.
             </p>
             <a
-              href="tel:9174879110"
+              href="tel:+1 917-487-9110"
               className="inline-block animate-reveal-delay-2"
             >
               <Button className="btn-luxury text-base md:text-lg px-8 md:px-12 py-3 md:py-4">

@@ -23,7 +23,7 @@ const FloatingIcons = () => {
 
       {/* Phone Icon */}
       <a
-        href="tel:+917-487-9110"
+        href="tel:+1 917-487-9110"
         className="floating-icon w-16 h-16 rounded-full bg-blue-600 flex items-center justify-center text-white shadow-lg hover:bg-blue-700 transition-all duration-300"
         aria-label="Call us"
       >
